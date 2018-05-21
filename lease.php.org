@@ -1,0 +1,18 @@
+<?php include("sess.php"); include("conn.php");
+	error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
+	include("a.inc"); ?>
+	<h2 class="css-postheader"><a name="leasing_industry"></a>Leasing Industry in Nigeria</h2>
+		<p>There is no specific law on leasing in Nigeria. Common Law and provisions of relevant legislation such as the Companies Income Tax Act, Banking and other Financial Institutions Act and the Companies and Allied Matters Act, presently govern leasing transactions. Leases are also subject to both Value Added Tax (VAT) and withholding tax, being charged at 5% and 10%, respectively.</p>
+		<p>Leasing started in Nigeria in 1960s. Returns from ELAN members in 2006 indicate an outstanding lease volume of &#8358;185B, representing a growth rate of 65% over the previous year's figure of &#8358;115B. Total figure for the industry could well be over &#8358;250B taking into cognizance the level of leasing activities carried out by non-ELAN members especially in the oil and gas sector.</p>
+		<p>Oil and gas and manifacturing sectors continued to dominate the leasing scene accounting for over 59% of total transactions.</p>
+		<p>The transportation sector in recent times has been recording remarkable results where commercial vehicle leasing remains the main attraction.</p>
+		<p>High interest rates and prohibitive collateral requirements prevent most SMEs from securing necessary credit to acquire expensive machinery, equipment or vehicles. Traditional banking and commercial credit are, therefore, often only available to the top end of the market.</p>
+		<p>To further encourage leasing in Sub-Sahara Africa, the IFC launched in 2008, the IFC Africa Leasing Facility, a five-year, multi-country advisory services program aimed at introducing leasing as an innovative financial instrument acrosse Sub-Saharan Africa. The facility's goal is to increase access to finance for microm small and medium enterprises (SMEs) in a number of important sectorsm including agriculture, transportation, construction.</p>
+		<p>Leasing is particularly useful as a financial instrument for small businesses in Africa because these businesses often lack the credit history or sufficient collateral to access traditional forms of financing. Leasing also reduces the initial capital requirements for acquiring equipment.</p>
+	<h2 class="css-postheader"><a name="process"></a>Leasing Process</h2>
+		<p style="text-align:center;"><img width="475" height="440" alt="" class="css-lightbox" src="images/individual-2.png"><br /></p>
+	<h2 class="css-postheader"><a name="public"></a>Public Lease</h2>
+		<p>Public leases which correspond to the finance lease of taxis and mini buses to operators in the Abuja region through the Abuja Green Cabs Scheme and the Abuja Green Mini Buses Scheme respectively. This is the historical business of the Company on which it built its reputation in Abuja and its environs. ALC grew this business with the strong support of the Federal Capital Territory.<br /></p>
+	<h2 class="css-postheader"><a name="private"></a>Private Lease</h2>
+		<p>Private leases which correspond to consumer leases to individuals and businesses in the Northern part of the country. This business, which was launched in 2007, is a volume driven activity with huge potential, especially in the Northern region of Nigeria where the demand is high and the competition is limited.</p>
+<?php include("z.inc"); ?>

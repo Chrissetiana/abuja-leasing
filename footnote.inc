@@ -1,0 +1,2 @@
+<br /><p style="text-align:center;">&copy; 2005-2014. Abuja Leasing Company Limited. All Rights Reserved.</p>
+<p class="css-page-footer"><span id="css-footnote-links">Designed and maintained by <a href="info@abujaleasingcompany.com" target="_blank">ALC_IT</a>.</span></p>

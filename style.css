@@ -1,0 +1,2522 @@
+/* Created by Artisteer v4.0.0.58475 */
+
+#css-main
+{
+   background: #FFFFFF;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.css-hmenu
+{
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.css-button
+{
+   border: 0;
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #75A52C;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   padding:0 21px;
+   margin:0 auto;
+   height:25px;
+}
+
+.css-postcontent,
+.css-postheadericons,
+.css-postfootericons,
+.css-blockcontent,
+ul.css-vmenu a 
+{
+   text-align: left;
+}
+
+.css-postcontent,
+.css-postcontent li,
+.css-postcontent table,
+.css-postcontent a,
+.css-postcontent a:link,
+.css-postcontent a:visited,
+.css-postcontent a.visited,
+.css-postcontent a:hover,
+.css-postcontent a.hovered
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-align: left;
+   line-height: 175%;
+}
+
+.css-postcontent p
+{
+   margin: 13px 0;
+}
+
+.css-postcontent h1, .css-postcontent h1 a, .css-postcontent h1 a:link, .css-postcontent h1 a:visited, .css-postcontent h1 a:hover,
+.css-postcontent h2, .css-postcontent h2 a, .css-postcontent h2 a:link, .css-postcontent h2 a:visited, .css-postcontent h2 a:hover,
+.css-postcontent h3, .css-postcontent h3 a, .css-postcontent h3 a:link, .css-postcontent h3 a:visited, .css-postcontent h3 a:hover,
+.css-postcontent h4, .css-postcontent h4 a, .css-postcontent h4 a:link, .css-postcontent h4 a:visited, .css-postcontent h4 a:hover,
+.css-postcontent h5, .css-postcontent h5 a, .css-postcontent h5 a:link, .css-postcontent h5 a:visited, .css-postcontent h5 a:hover,
+.css-postcontent h6, .css-postcontent h6 a, .css-postcontent h6 a:link, .css-postcontent h6 a:visited, .css-postcontent h6 a:hover,
+.css-blockheader .t, .css-blockheader .t a, .css-blockheader .t a:link, .css-blockheader .t a:visited, .css-blockheader .t a:hover,
+.css-vmenublockheader .t, .css-vmenublockheader .t a, .css-vmenublockheader .t a:link, .css-vmenublockheader .t a:visited, .css-vmenublockheader .t a:hover,
+.css-headline, .css-headline a, .css-headline a:link, .css-headline a:visited, .css-headline a:hover,
+.css-slogan, .css-slogan a, .css-slogan a:link, .css-slogan a:visited, .css-slogan a:hover,
+.css-postheader, .css-postheader a, .css-postheader a:link, .css-postheader a:visited, .css-postheader a:hover
+{
+   font-size: 22px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.css-postcontent a, .css-postcontent a:link
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #8EC936;
+}
+
+.css-postcontent a:visited, .css-postcontent a.visited
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #998B66;
+}
+
+.css-postcontent  a:hover, .css-postcontent a.hover
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #E2341D;
+}
+
+.css-postcontent h1
+{
+   color: #49691C;
+   margin: 10px 0 0;
+   font-size: 26px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-blockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 26px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h1 a, .css-postcontent h1 a:link, .css-postcontent h1 a:hover, .css-postcontent h1 a:visited, .css-blockcontent h1 a, .css-blockcontent h1 a:link, .css-blockcontent h1 a:hover, .css-blockcontent h1 a:visited 
+{
+   font-size: 26px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h2
+{
+   color: #4A691C;
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-blockcontent h2
+{
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h2 a, .css-postcontent h2 a:link, .css-postcontent h2 a:hover, .css-postcontent h2 a:visited, .css-blockcontent h2 a, .css-blockcontent h2 a:link, .css-blockcontent h2 a:hover, .css-blockcontent h2 a:visited 
+{
+   font-size: 22px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h3
+{
+   color: #C6BEA9;
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-blockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h3 a, .css-postcontent h3 a:link, .css-postcontent h3 a:hover, .css-postcontent h3 a:visited, .css-blockcontent h3 a, .css-blockcontent h3 a:link, .css-blockcontent h3 a:hover, .css-blockcontent h3 a:visited 
+{
+   font-size: 20px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h4
+{
+   color: #5E8523;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-blockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h4 a, .css-postcontent h4 a:link, .css-postcontent h4 a:hover, .css-postcontent h4 a:visited, .css-blockcontent h4 a, .css-blockcontent h4 a:link, .css-blockcontent h4 a:hover, .css-blockcontent h4 a:visited 
+{
+   font-size: 18px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h5
+{
+   color: #5E8523;
+   margin: 10px 0 0;
+   font-size: 15px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-blockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 15px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h5 a, .css-postcontent h5 a:link, .css-postcontent h5 a:hover, .css-postcontent h5 a:visited, .css-blockcontent h5 a, .css-blockcontent h5 a:link, .css-blockcontent h5 a:hover, .css-blockcontent h5 a:visited 
+{
+   font-size: 15px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h6
+{
+   color: #A7D562;
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-blockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+.css-postcontent h6 a, .css-postcontent h6 a:link, .css-postcontent h6 a:hover, .css-postcontent h6 a:visited, .css-blockcontent h6 a, .css-blockcontent h6 a:link, .css-blockcontent h6 a:hover, .css-blockcontent h6 a:visited 
+{
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+}
+
+header, footer, article, nav, #css-hmenu-bg, .css-sheet, .css-hmenu a, .css-vmenu a, .css-slidenavigator > a, .css-checkbox:before, .css-radiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #css-hmenu-bg, .css-sheet, .css-slidenavigator > a, .css-checkbox:before, .css-radiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 700px;
+   color: #000000;
+}
+
+.clearfix:before, .clearfix:after {
+   content: "";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.cleared {
+   font: 0/0 serif;
+   clear: both;
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .css-postcontent li h1, .css-blockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .css-postcontent li h2, .css-blockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .css-postcontent li h3, .css-blockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .css-postcontent li h4, .css-blockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .css-postcontent li h5, .css-blockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .css-postcontent li h6, .css-blockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .css-postcontent li p, .css-blockcontent li p 
+{
+   margin:1px;
+}
+
+
+.css-shapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.css-slider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.css-slidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.css-slidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+.css-object1559787589
+{
+    display: block;
+    left: 100%;
+    margin-left: -308px;
+    position: absolute;
+    top: 65px;
+    width: 308px;
+    height: 185px;
+    background-image: url('images/object1559787589.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.css-object1038546814
+{
+    display: block;
+    left: 0.14%;
+    margin-left: -7px;
+    position: absolute;
+    top: 10px;
+    width: 350px;
+    height: 122px;
+    background-image: url('images/object1038546814.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+.css-object1448325346
+{
+    display: block;
+    left: 99.74%;
+    margin-left: -285px;
+    position: absolute;
+    top: -17px;
+    width: 289px;
+    height: 182px;
+    background-image: url('images/object1448325346.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.css-headline
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 123px;
+  left: 1.17%;
+  line-height: 100%;
+  margin-left: -6px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 99;
+}
+
+.css-headline, 
+.css-headline a, 
+.css-headline a:link, 
+.css-headline a:visited, 
+.css-headline a:hover
+{
+font-size: 36px;
+font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
+font-weight: normal;
+font-style: italic;
+text-decoration: none;
+text-align: left;
+text-shadow: 1.4px 1.4px 0px rgb(255, 255, 255), 2.1px 2.1px 0px rgba(23, 23, 23, 0.8);
+  padding: 0;
+  margin: 0;
+  color: #003818 !important;
+  white-space: nowrap;
+}
+.css-slogan
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 173px;
+  left: 0.63%;
+  line-height: 100%;
+  margin-left: -1px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 99;
+  white-space: nowrap;
+}
+
+.css-slogan, 
+.css-slogan a, 
+.css-slogan a:link, 
+.css-slogan a:visited, 
+.css-slogan a:hover
+{
+font-size: 22px;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+font-weight: bold;
+font-style: italic;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 0px 0px rgb(23, 23, 23), 1px 0px 0px rgb(23, 23, 23), 0px -1px 0px rgb(23, 23, 23), 0px 1px 0px rgb(23, 23, 23), 0px 0px 10px rgba(0, 0, 0, 0.99);
+  padding: 0;
+  margin: 0;
+  color: #E6F3D3 !important;
+}
+
+
+
+
+
+
+.css-sheet
+{
+   background: #FFFFFF;
+   -webkit-box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   -moz-box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   margin:30px auto 0;
+   position:relative;
+   cursor:auto;
+   width: 80%;
+   min-width: 700px;
+   max-width: 1536px;
+   z-index: auto !important;
+}
+
+.css-header
+{
+   margin:0 auto;
+   height: 250px;
+   background-image: url('images/header.png');
+   background-position: center top;
+   background-repeat: no-repeat;
+   position: relative;
+   z-index: auto !important;
+}
+
+.responsive .css-header 
+{
+   background-image: url('images/header.png');
+   background-position: center center;
+}
+
+.css-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+#css-flash-area
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 250px;
+   overflow: hidden;
+}
+
+#css-flash-container
+{
+   height: 384px;
+   top: -66px;
+   position: absolute;
+   width: 1536px;
+   left: 0;
+}
+
+#css-flash-container .css-flash-alt
+{
+   position: relative;
+   width: 110px;
+   height: 30px;
+   margin: 0 auto;
+   top: 66px;
+}
+
+.css-nav
+{
+   background: #323A31;
+   background: rgba(50, 58, 49, 0.1);
+   border:2px solid rgba(119, 109, 80, 0.1);
+   border-left:none;
+   border-right:none;
+   margin:0 auto;
+   position: relative;
+   z-index: 100;
+   font-size: 0;
+   text-align: center;
+}
+
+ul.css-hmenu a, ul.css-hmenu a:link, ul.css-hmenu a:visited, ul.css-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.css-hmenu, ul.css-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.css-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.css-hmenu li:hover
+{
+   z-index: 10000;
+   white-space: normal;
+}
+
+ul.css-hmenu:after, ul.css-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.css-hmenu, ul.css-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.css-hmenu 
+{
+   display: inline-block;
+   vertical-align: bottom;
+}
+
+.css-nav:before 
+{
+   content:' ';
+}
+
+.css-hmenu-extra1
+{
+   position : absolute;
+   left: 0;
+   top: 0;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.css-hmenu-extra2
+{
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.css-menuitemcontainer
+{
+   margin:0 auto;
+}
+ul.css-hmenu>li {
+   margin-left: 17px;
+}
+ul.css-hmenu>li:first-child {
+   margin-left: 8px;
+}
+ul.css-hmenu>li:last-child, ul.css-hmenu>li.last-child {
+   margin-right: 8px;
+}
+
+ul.css-hmenu>li>a
+{
+   padding:0 17px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 35px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #403B2B;
+   line-height: 35px;
+   text-align: center;
+}
+
+.css-hmenu a, 
+.css-hmenu a:link, 
+.css-hmenu a:visited, 
+.css-hmenu a.active, 
+.css-hmenu a:hover
+{
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: left;
+}
+
+ul.css-hmenu>li>a.active
+{
+   padding:0 17px;
+   margin:0 auto;
+   color: #669127;
+   text-decoration: none;
+}
+
+ul.css-hmenu>li>a:visited, 
+ul.css-hmenu>li>a:hover, 
+ul.css-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+ul.css-hmenu>li>a:hover, .desktop ul.css-hmenu>li:hover>a
+{
+   background: #E2341D;
+   padding:0 17px;
+   margin:0 auto;
+}
+ul.css-hmenu>li>a:hover, 
+.desktop-nav ul.css-hmenu>li:hover>a {
+   color: #312D21;
+   text-decoration: none;
+}
+
+ul.css-hmenu>li:before
+{
+   position:absolute;
+   display: block;
+   content:' ';
+   top:0;
+   left:  -17px;
+   width:17px;
+   height: 35px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.css-hmenu>li:first-child:before{
+   display:none;
+}
+
+ul.css-hmenu li li a
+{
+   background: #46402F;
+   background: transparent;
+   padding:0 10px;
+   margin:0 auto;
+}
+ul.css-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 2px;
+   margin-bottom: 2px;
+}
+
+.desktop-nav ul.css-hmenu li li ul>li:first-child 
+{
+   margin-top: 0;
+}
+
+ul.css-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.css-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 25px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 25px;
+   color: #221F16;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+.css-hmenu ul a:link, 
+.css-hmenu ul a:visited, 
+.css-hmenu ul a.active, 
+.css-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 25px;
+   color: #221F16;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+ul.css-hmenu li li:after
+{
+   display: block;
+   position: absolute;
+   content: ' ';
+   height: 0;
+   top: -1px;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   border-bottom: 1px dotted #5F563F;
+}
+
+.desktop-nav ul.css-hmenu li li:first-child:before, 
+.desktop-nav ul.css-hmenu li li:first-child:after 
+{
+   display: none;
+} 
+
+ul.css-hmenu ul li a:hover, .desktop ul.css-hmenu ul li:hover>a
+{
+   background: #A39775;
+   background: transparent;
+   margin:0 auto;
+}
+.css-hmenu ul a:hover
+{
+   text-decoration: none;
+}
+
+.css-hmenu ul li a:hover
+{
+   color: #000000;
+}
+
+.desktop-nav .css-hmenu ul li:hover>a
+{
+   color: #000000;
+}
+
+ul.css-hmenu ul:before
+{
+   background: #E2341D;
+   border:1px dotted #776D50;
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+}
+.desktop-nav ul.css-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+.desktop-nav ul.css-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+
+ul.css-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('images/spacer.gif');
+}
+
+.desktop-nav ul.css-hmenu>li>ul
+{
+   padding: 18px 36px 36px 36px;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.css-hmenu ul ul
+{
+   padding: 36px 36px 36px 16px;
+   margin: -36px 0 0 -5px;
+}
+
+.desktop-nav ul.css-hmenu ul.css-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.css-hmenu ul.css-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+.desktop-nav ul.css-hmenu li li:hover>ul.css-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+.desktop-nav ul.css-hmenu li li:hover>ul.css-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+.desktop-nav ul.css-hmenu ul ul.css-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 36px 36px 36px 16px;
+   margin: -36px 0 0 -5px;
+}
+
+.desktop-nav ul.css-hmenu ul ul.css-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 36px 16px 36px 36px;
+   margin: -36px -5px 0 0;
+}
+
+.desktop-nav ul.css-hmenu li ul>li:first-child {
+   margin-top: 0;
+}
+.desktop-nav ul.css-hmenu li ul>li:last-child {
+   margin-bottom: 0;
+}
+
+.desktop-nav ul.css-hmenu ul ul:before
+{
+   border-radius: 0;
+   top: 30px;
+   bottom: 30px;
+   right: 30px;
+   left: 10px;
+}
+
+.desktop-nav ul.css-hmenu>li>ul:before
+{
+   top: 12px;
+   right: 30px;
+   bottom: 30px;
+   left: 30px;
+}
+
+.desktop-nav ul.css-hmenu>li>ul.css-hmenu-left-to-right:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop-nav ul.css-hmenu>li>ul.css-hmenu-right-to-left:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop-nav ul.css-hmenu ul ul.css-hmenu-left-to-right:before {
+   right: 30px;
+   left: 10px;
+}
+.desktop-nav ul.css-hmenu ul ul.css-hmenu-right-to-left:before {
+   right: 10px;
+   left: 30px;
+}
+
+.css-layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.css-content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+   border-collapse: collapse;
+}
+
+.css-content-layout-row 
+{
+   display: table-row;
+}
+
+.css-layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+.css-vmenublock
+{
+   background: #46402F;
+   background: rgba(70, 64, 47, 0.1);
+   border:1px solid rgba(119, 109, 80, 0.1);
+   padding:7px;
+   margin:7px;
+}
+div.css-vmenublock img
+{
+   margin: 0;
+}
+
+.css-vmenublockheader
+{
+   background: #6D9D2A;
+   background: linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -moz-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -o-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -ms-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   -svg-background: linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   border:1px solid #312D21;
+   padding:12px 0;
+   margin:0 auto 4px;
+}
+.css-vmenublockheader .t,
+.css-vmenublockheader .t a,
+.css-vmenublockheader .t a:link,
+.css-vmenublockheader .t a:visited, 
+.css-vmenublockheader .t a:hover
+{
+   color: #000000;
+   font-size: 20px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   margin: 0 10px;
+}
+
+.css-vmenublockcontent
+{
+   margin:0 auto;
+}
+
+ul.css-vmenu, ul.css-vmenu ul
+{
+   list-style: none;
+   display: block;
+}
+
+ul.css-vmenu, ul.css-vmenu li
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   line-height: 0;
+}
+
+ul.css-vmenu
+{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+ul.css-vmenu ul
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+ul.css-vmenu ul.active
+{
+   display: block;
+}
+
+ul.css-vmenu>li>a
+{
+   padding:0 15px;
+   margin:0 auto;
+   color: #000000;
+   min-height: 32px;
+   line-height: 32px;
+}
+ul.css-vmenu a 
+{
+   display: block;
+   cursor: pointer;
+   z-index: 1;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   position:relative;
+}
+
+ul.css-vmenu li{
+   position:relative;
+}
+
+ul.css-vmenu>li
+{
+   margin-top: 4px;
+}
+ul.css-vmenu>li>ul
+{
+   padding: 0;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+ul.css-vmenu>li:first-child
+{
+   margin-top:0;
+}
+
+ul.css-vmenu>li>a:before
+{
+   content:url('images/vmenuitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.css-vmenu>li>a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.css-vmenu>li>a.active:before
+{
+   content:url('images/vmenuactiveitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.css-vmenu>li>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.css-vmenu>li>a:hover:before
+{
+   content:url('images/vmenuhovereditemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.css-vmenu>li>a:hover:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.css-vmenu>li>a:hover, ul.css-vmenu>li>a.active:hover
+{
+   background: #E2341D;
+   padding:0 15px;
+   margin:0 auto;
+}
+ul.css-vmenu>li>a:hover, ul.css-vmenu>li>a.active:hover
+{
+   text-decoration: none;
+}
+
+ul.css-vmenu a:hover, ul.css-vmenu a.active:hover 
+{
+   color: #000000;
+}
+
+ul.css-vmenu>li>a.active:hover>span.border-top, ul.css-vmenu>li>a.active:hover>span.border-bottom 
+{
+   background-color: transparent;
+}
+
+ul.css-vmenu>li>a.active
+{
+   padding:0 15px;
+   margin:0 auto;
+   text-decoration: none;
+   color: #46651B;
+}
+
+ul.css-vmenu>li>ul:before
+{
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+ul.css-vmenu li li a
+{
+   margin:0 auto;
+   position: relative;
+}
+ul.css-vmenu ul li
+{
+   margin: 0;
+   padding: 0;
+}
+ul.css-vmenu li li{
+   position: relative;
+   margin-top: 2px;
+}
+
+ul.css-vmenu ul a
+{
+   display: block;
+   position: relative;
+   min-height: 22px;
+   overflow: visible;
+   padding: 0;
+   padding-left: 27px;
+   padding-right: 27px;
+   z-index: 0;
+   line-height: 22px;
+   color: #8D805E;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.css-vmenu ul a:visited, ul.css-vmenu ul a.active:hover, ul.css-vmenu ul a:hover, ul.css-vmenu ul a.active
+{
+   line-height: 22px;
+   color: #8D805E;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.css-vmenu ul ul a
+{
+   padding-left: 54px;
+}
+ul.css-vmenu ul ul ul a
+{
+   padding-left: 81px;
+}
+ul.css-vmenu ul ul ul ul a
+{
+   padding-left: 108px;
+}
+ul.css-vmenu ul ul ul ul ul a
+{
+   padding-left: 135px;
+}
+
+ul.css-vmenu li li a:before
+{
+   content:url('images/vmenusubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.css-vmenu li li a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.css-vmenu ul>li>a:hover, ul.css-vmenu ul>li>a.active:hover
+{
+   background: #75A52C;
+   background: rgba(117, 165, 44, 0.4);
+   margin:0 auto;
+}
+ul.css-vmenu ul li a:hover, ul.css-vmenu ul li a.active:hover
+{
+   text-decoration: none;
+   color: #3B5516;
+}
+
+ul.css-vmenu ul a:hover:after
+{
+   background-position: center ;
+}
+ul.css-vmenu ul a.active:hover:after
+{
+   background-position: center ;
+}
+ul.css-vmenu ul a.active:after
+{
+   background-position: bottom ;
+}
+
+ul.css-vmenu li li a:hover:before
+{
+   content:url('images/vmenuhoveredsubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.css-vmenu li li a:hover:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.css-vmenu ul>li>a.active
+{
+   margin:0 auto;
+}
+ul.css-vmenu ul a.active, ul.css-vmenu ul a:hover, ul.css-vmenu ul a.active:hover
+{
+   text-decoration: none;
+   color: #47651B;
+}
+
+ul.css-vmenu li li a.active:before
+{
+   content:url('images/vmenuactivesubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.css-vmenu li li a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-block
+{
+   background: #46402F;
+   background: rgba(70, 64, 47, 0.1);
+   border:1px solid rgba(119, 109, 80, 0.1);
+   padding:7px;
+   margin:7px;
+}
+div.css-block img
+{
+   border: none;
+   margin: 2px;
+}
+
+.css-blockheader
+{
+   background: #6D9D2A;
+   background: linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -moz-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -o-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: -ms-linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   background: linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   -svg-background: linear-gradient(top, #6A9929 0, #78AD2E 50%, #659127 50%, #73A52C 100%) no-repeat;
+   border:1px solid #312D21;
+   padding:12px 5px;
+   margin:0 auto 4px;
+}
+.css-blockheader .t,
+.css-blockheader .t a,
+.css-blockheader .t a:link,
+.css-blockheader .t a:visited, 
+.css-blockheader .t a:hover
+{
+   color: #000000;
+   font-size: 18px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   margin: 0 5px;
+}
+
+.css-blockcontent
+{
+   padding:5px;
+   margin:0 auto;
+   color: #15140E;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+.css-blockcontent table,
+.css-blockcontent li, 
+.css-blockcontent a,
+.css-blockcontent a:link,
+.css-blockcontent a:visited,
+.css-blockcontent a:hover
+{
+   color: #15140E;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+
+.css-blockcontent p
+{
+   margin: 0 5px;
+}
+
+.css-blockcontent a, .css-blockcontent a:link
+{
+   color: #000000;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.css-blockcontent a:visited, .css-blockcontent a.visited
+{
+   color: #000000;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.css-blockcontent a:hover, .css-blockcontent a.hover
+{
+   color: #E2341D;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+.css-block ul>li:before
+{
+   content:url('images/blockbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -17px;
+}
+.opera .css-block ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-block li
+{
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   line-height: 175%;
+   color: #2B271D;
+   margin: 5px 0 0 10px;
+}
+
+.css-block ul>li, .css-block ol
+{
+   padding: 0;
+}
+
+.css-block ul>li
+{
+   padding-left: 17px;
+}
+
+.css-breadcrumbs
+{
+   margin:0 auto;
+}
+
+a.css-button,
+a.css-button:link,
+a:link.css-button:link,
+body a.css-button:link,
+a.css-button:visited,
+body a.css-button:visited,
+input.css-button,
+button.css-button
+{
+   text-decoration: none;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #E9E6DD;
+   margin: 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 25px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.css-button img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .css-button
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea
+{
+   vertical-align: middle;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.css-block select 
+{
+   width:96%;
+}
+
+input.css-button
+{
+   float: none !important;
+}
+
+.css-button.active, .css-button.active:hover
+{
+   background: #75A52C;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   padding:0 21px;
+   margin:0 auto;
+}
+.css-button.active, .css-button.active:hover {
+   color: #E6F3D3 !important;
+}
+
+.css-button.hover, .css-button:hover
+{
+   background: #648D25;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   padding:0 21px;
+   margin:0 auto;
+}
+.css-button.hover, .css-button:hover {
+   color: #E4F2CF !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #776D50;
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   width: 100%;
+   padding: 4px 0;
+   color: #181610 !important;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+input.css-error, textarea.css-error
+{
+   background: #211E17;
+   border:1px solid #E2341D;
+   margin:0 auto;
+}
+input.css-error, textarea.css-error {
+   color: #B8AE94 !important;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.css-search input[type="text"]
+{
+   background: #211E17;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #776D50;
+   margin:0 auto;
+   width: 100%;
+   padding: 3px 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #B8AE94 !important;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.css-search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.css-search input
+{
+   top:0;
+   right:0;
+}
+
+form.css-search>input {
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+ 
+form.css-search input[type="submit"]
+{
+   margin:0 auto;
+   color: #E9E6DD !important;
+   position:absolute;
+   display:block;
+   left: auto;
+   border:none;
+   background:url('images/searchicon.png') center center no-repeat;
+   width:24px;
+   height: 100%;
+   padding:0;
+}
+
+label.css-checkbox:before
+{
+   background: #211E17;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+}
+label.css-checkbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+}
+
+.css-checkbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.css-checkbox.active:before
+{
+   background: #776D50;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.css-checkbox.hovered:before
+{
+   background: #5C543D;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.css-radiobutton:before
+{
+   background: #211E17;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+}
+label.css-radiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 12px;
+   display: inline-block;
+}
+
+.css-radiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.css-radiobutton.active:before
+{
+   background: #776D50;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+label.css-radiobutton.hovered:before
+{
+   background: #5C543D;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+.css-post
+{
+   padding:5px;
+}
+a img
+{
+   border: 0;
+}
+
+.css-article img, img.css-article, .css-block img, .css-footer img
+{
+   margin: 7px 7px 7px 7px;
+}
+
+.css-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.css-article table, table.css-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.css-post .css-content-layout-br
+{
+   height: 0;
+}
+
+.css-article th, .css-article td
+{
+   padding: 2px;
+   border: solid 1px #908360;
+   vertical-align: top;
+   text-align: left;
+}
+
+.css-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 7px 7px 7px 7px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.css-collage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.css-postheader
+{
+   color: #181610;
+   margin: 5px 10px;
+   font-size: 24px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.css-postheader a, 
+.css-postheader a:link, 
+.css-postheader a:visited,
+.css-postheader a.visited,
+.css-postheader a:hover,
+.css-postheader a.hovered
+{
+   font-size: 24px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.css-postheader a, .css-postheader a:link
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #000000;
+}
+
+.css-postheader a:visited, .css-postheader a.visited
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #A7D666;
+}
+
+.css-postheader a:hover,  .css-postheader a.hovered
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #49691C;
+}
+
+.css-postheadericons,
+.css-postheadericons a,
+.css-postheadericons a:link,
+.css-postheadericons a:visited,
+.css-postheadericons a:hover
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   color: #4D4633;
+}
+
+.css-postheadericons
+{
+   display:inline-block;
+   padding: 1px;
+   margin: 0 0 0 10px;
+}
+
+.css-postheadericons a, .css-postheadericons a:link
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #6B6247;
+}
+
+.css-postheadericons a:visited, .css-postheadericons a.visited
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #6B6247;
+}
+
+.css-postheadericons a:hover, .css-postheadericons a.hover
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   color: #1F2C0C;
+}
+
+.css-postdateicon:before
+{
+   content:url('images/postdateicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .css-postdateicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postauthoricon:before
+{
+   content:url('images/postauthoricon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .css-postauthoricon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postpdficon:before
+{
+   content:url('images/postpdficon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .css-postpdficon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postprinticon:before
+{
+   content:url('images/postprinticon.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .css-postprinticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postemailicon:before
+{
+   content:url('images/postemailicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .css-postemailicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postediticon:before
+{
+   content:url('images/postediticon.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .css-postediticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postcontent ul>li:before,  .css-post ul>li:before,  .css-textblock ul>li:before
+{
+   content:url('images/postbullets.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .css-postcontent ul>li:before, .opera   .css-post ul>li:before, .opera   .css-textblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-postcontent li, .css-post li, .css-textblock li
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   color: #181610;
+   margin: 3px 0 0 11px;
+}
+
+.css-postcontent ul>li, .css-post ul>li, .css-textblock ul>li, .css-postcontent ol, .css-post ol, .css-textblock ol
+{
+   padding: 0;
+}
+
+.css-postcontent ul>li, .css-post ul>li, .css-textblock ul>li
+{
+   padding-left: 17px;
+}
+
+.css-postcontent ul>li:before,  .css-post ul>li:before,  .css-textblock ul>li:before
+{
+   margin-left: -17px;
+}
+
+.css-postcontent ol, .css-post ol, .css-textblock ol, .css-postcontent ul, .css-post ul, .css-textblock ul
+{
+   margin: 1em 0 1em 11px;
+}
+
+.css-postcontent li ol, .css-post li ol, .css-textblock li ol, .css-postcontent li ul, .css-post li ul, .css-textblock li ul
+{
+   margin: 0.5em 0 0.5em 11px;
+}
+
+.css-postcontent li, .css-post li, .css-textblock li
+{
+   margin: 3px 0 0 0;
+}
+
+.css-postcontent ol>li, .css-post ol>li, .css-textblock ol>li
+{
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.css-postcontent ul>li, .css-post ul>li, .css-textblock ul>li
+{
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background:  url('images/postquote.png') no-repeat scroll;
+   padding:10px 10px 10px 47px;
+   margin:10px 0 0 25px;
+   color: #000000;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .css-postcontent blockquote a, .css-blockcontent blockquote a, .css-footer blockquote a,
+blockquote a:link, .css-postcontent blockquote a:link, .css-blockcontent blockquote a:link, .css-footer blockquote a:link,
+blockquote a:visited, .css-postcontent blockquote a:visited, .css-blockcontent blockquote a:visited, .css-footer blockquote a:visited,
+blockquote a:hover, .css-postcontent blockquote a:hover, .css-blockcontent blockquote a:hover, .css-footer blockquote a:hover
+{
+   color: #000000;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.css-postcontent blockquote p,
+.css-blockcontent blockquote p,
+.css-footer blockquote p
+{
+   margin: 0;
+   margin: 5px 0;
+}
+
+.css-postfootericons,
+.css-postfootericons a,
+.css-postfootericons a:link,
+.css-postfootericons a:visited,
+.css-postfootericons a:hover
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   color: #655C43;
+}
+
+.css-postfootericons
+{
+   display:inline-block;
+   padding: 1px;
+   margin: 0 0 0 10px;
+}
+
+.css-postfootericons a, .css-postfootericons a:link
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #6B6247;
+}
+
+.css-postfootericons a:visited, .css-postfootericons a.visited
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #6B6247;
+}
+
+.css-postfootericons a:hover, .css-postfootericons a.hover
+{
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #1F2C0C;
+}
+
+.css-footer
+{
+   background: #6D9D2A;
+   border-top:1px dotted #776D50;
+   padding:25px;
+   margin:0 auto;
+   position: relative;
+   color: #DEDACE;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   line-height: 175%;
+   text-align: center;
+}
+
+.css-footer a,
+.css-footer a:link,
+.css-footer a:visited,
+.css-footer a:hover,
+.css-footer td, 
+.css-footer th,
+.css-footer caption
+{
+   color: #DEDACE;
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+
+.css-footer p 
+{
+   padding:0;
+   text-align: center;
+}
+
+.css-footer a,
+.css-footer a:link
+{
+   color: #C8E59E;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.css-footer a:visited
+{
+   color: #E9E6DD;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.css-footer a:hover
+{
+   color: #E6F3D3;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.css-footer img
+{
+   border: none;
+   margin: 0;
+}
+
+.css-rss-tag-icon
+{
+   background:  url('images/footerrssicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:25px;
+   min-width:25px;
+   display: inline-block;
+   text-indent: 28px;
+   background-position: left center;
+}
+
+.css-rss-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.css-footer ul>li:before
+{
+   content:url('images/footerbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -13px;
+}
+.opera .css-footer ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.css-footer li
+{
+   font-size: 13px;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, Sans-Serif;
+   color: #DEDACE;
+}
+
+.css-footer ul>li, .css-footer ol
+{
+   padding: 0;
+}
+
+.css-footer ul>li
+{
+   padding-left: 13px;
+}
+
+.css-page-footer, 
+.css-page-footer a,
+.css-page-footer a:link,
+.css-page-footer a:visited,
+.css-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #648D25;
+}
+
+.css-page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #6B6247;
+}
+
+img.css-lightbox
+{
+   cursor: pointer;
+}
+
+#css-lightbox-bg *
+{
+   padding: 0;
+   margin: 0;
+}
+
+div#css-lightbox-bg
+{
+   top: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+   z-index: 9999;
+}
+
+img.css-lightbox-image
+{
+   -webkit-transition: opacity 350ms ease-in-out;
+   -moz-transition: opacity 350ms ease-in-out;
+   -o-transition: opacity 350ms ease-in-out;
+   -ms-transition: opacity 350ms ease-in-out;
+   transition: opacity 350ms ease-in-out;
+   cursor: pointer;
+   z-index: 10000;
+   position: fixed;
+   border: 6px solid #fff;
+   border-radius: 3px;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+
+img.css-lightbox-image.active
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.lightbox-error
+{
+   position: fixed;
+   background: #fff;
+   z-index: 100;
+   opacity: 0.95;
+   padding: 20px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   width: 300px;
+   height: 80px;
+}
+
+.loading
+{
+   position: fixed;
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   width: 32px;
+   height: 32px;
+   z-index: 10100;
+   opacity: 0.5;
+   padding: 10px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+}
+
+.arrow
+{
+   height: 100px;
+   width: 82px;
+   z-index: 10003;
+   position: fixed;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.arrow.left
+{
+   left: 9px;
+}
+.arrow.right
+{
+   right: 9px;
+}
+
+.arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.arrow.disabled 
+{
+   display: none;
+}
+
+.arrow-t, .arrow-b
+{
+   height: 6px;
+   width: 30px;
+   left: 26px;
+   background-color: #fff;
+   position: relative;
+   border-radius: 3px;
+}
+
+.arrow-t
+{
+   top: 38px;
+}
+
+.arrow-b
+{
+   top: 50px;
+}
+
+.close
+{
+   width: 22px;
+   height: 22px;
+   position: fixed;
+   top: 30px;
+   right: 39px;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.close .cw, .close .ccw
+{
+   position: absolute;
+   top: 8px;
+   left: -4px;
+   width: 30px;
+   height: 6px;
+   background-color: #fff;
+   border-radius: 3px;
+}
+
+.cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt 
+{
+   display: none;
+   color: #fff;
+   font-size: 2.5em;
+}
+
+.ie8 .close-alt, .ie8 .arrow-right-alt, .ie8 .arrow-left-alt {
+   display: block;
+}
+.ie8 .cw, .ie8 .ccw {
+   display: none;
+}
+
+.css-content-layout .css-sidebar1
+{
+   background: #46402F;
+   background: transparent;
+   margin:0 auto;
+   width: 20%;
+}
+
+.css-content-layout .css-content
+{
+   margin:0 auto;
+}
+
+.css-content-layout .css-sidebar2
+{
+   background: #46402F;
+   background: transparent;
+   margin:0 auto;
+   width: 20%;
+}
+
+/* Begin Additional CSS Styles */
+
+/* End Additional CSS Styles */
